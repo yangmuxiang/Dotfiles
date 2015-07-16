@@ -13,18 +13,12 @@
 [submodule "vim-files/vim/bundle/rope"]
 	path = vim-files/vim/bundle/rope
 	url = https://github.com/klen/rope-vim.git
-[submodule "vim-files/vim/bundle/syntastic"]
-	path = vim-files/vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "vim-files/vim/bundle/tagbar"]
 	path = vim-files/vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "vim-files/vim/bundle/jedi-vim"]
 	path = vim-files/vim/bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
-[submodule "vim-files/vim/bundle/Command-T"]
-	path = vim-files/vim/bundle/Command-T
-	url = https://github.com/wincent/Command-T
 [submodule "vim-files/vim/bundle/vim-go"]
 	path = vim-files/vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
