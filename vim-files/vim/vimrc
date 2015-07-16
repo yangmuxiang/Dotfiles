@@ -18,6 +18,7 @@ set softtabstop=4
 set expandtab
 
 " More Common Settings.
+set fileencodings=latin1,utf-8
 set encoding=utf-8
 set scrolloff=3
 set autoindent
@@ -237,7 +238,7 @@ endif
 
 set background=dark
 "let g:solarized_termcolors=256
-colorscheme badwolf
+" colorscheme badwolf
 
 
 
@@ -262,6 +263,7 @@ let g:miniBufExplModSelTarget = 1
 " Tab color settings to make it more visible.
 hi MBEChanged ctermfg=white
 hi MBENormal ctermfg=white
+hi Visual term=reverse cterm=reverse guibg=Grey
 
 " Rope Plugin settings
 " imap <leader>j <ESC>:RopeGotoDefinition<cr>
