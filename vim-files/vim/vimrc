@@ -18,7 +18,7 @@ set softtabstop=4
 set expandtab
 
 " More Common Settings.
-set fileencodings=latin1,utf-8
+set fileencodings=utf-8,gb2312,gbk,gb18030,big5,latin1
 set encoding=utf-8
 set scrolloff=3
 set autoindent
@@ -30,7 +30,7 @@ set wildmode=list:longest
 set visualbell
 syntax on
 
-"set cursorline
+set cursorline
 set ttyfast
 set ruler
 set backspace=indent,eol,start
@@ -81,7 +81,7 @@ nnoremap <leader><space> :noh<cr>
 set wrap
 set textwidth=80
 set formatoptions=qrn1
-set colorcolumn=80
+set colorcolumn=100
 
 " To  show special characters in Vim
 "set list
@@ -131,6 +131,7 @@ nnoremap <leader>v V`]
 " ,ev Shortcut to edit .vimrc file on the fly on a vertical window.
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 
+nnoremap <leader>t :TagbarToggle<cr>
 " jj For Qicker Escaping between normal and editing mode.
 "inoremap jj <ESC>
 
@@ -238,7 +239,7 @@ endif
 
 set background=dark
 "let g:solarized_termcolors=256
-" colorscheme badwolf
+colorscheme default
 
 
 
@@ -264,6 +265,7 @@ let g:miniBufExplModSelTarget = 1
 hi MBEChanged ctermfg=white
 hi MBENormal ctermfg=white
 hi Visual term=reverse cterm=reverse guibg=Grey
+hi Search term=standout ctermfg=0 ctermbg=100 guifg=#adadad guibg=#ffffff
 
 " Rope Plugin settings
 " imap <leader>j <ESC>:RopeGotoDefinition<cr>
